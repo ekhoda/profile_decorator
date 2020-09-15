@@ -6,3 +6,5 @@ The profile decorator doesn't print the results in `stdout`. Instead, the result
 2. `sort_by` (optional, default = `'cumulative'`): sorting criteria that can be a `str`, `SortKey` enum, or a tuple/list of those.
 3. `lines_to_print` (optional, default = `None`): number of lines to print. If `None` all the lines are printed.
 4. `strip_dirs` (optional, default = `False`): whether to remove the leading path info from file names.
+
+For those interested, I wrote [this blog](https://towardsdatascience.com/how-to-profile-your-code-in-python-e70c834fad89) and explained different ways of profiling in more detail.
